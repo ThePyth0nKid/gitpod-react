@@ -26,7 +26,7 @@ class StatefulGreetingWithCallback extends React.Component {
         //return <h1>Hello from the stateful class component!</h1>
         return (
             <div>
-                <h1>{this.state.introduction} from the stateful class component!</h1>
+                <h1>{this.state.introduction} from the stateful class component with callback!</h1>
                 <button onClick={() => this.handleClick()}>{this.state.buttonText}</button>
             </div>
         )
