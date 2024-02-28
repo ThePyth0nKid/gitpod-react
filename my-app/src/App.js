@@ -7,10 +7,12 @@ import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallb
 import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 import EventsClass from './components/EventsClass';
 import EventsFunctional from './components/EventsFunctional';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
     <div className="App">
+      <SearchBar />
       <FunctionalGreeting />
       <FunctionalGreetingWithProps greeting="Nice to meet you!" />
       <StatefulGreeting greeting="I'm a stateful class component!" />
